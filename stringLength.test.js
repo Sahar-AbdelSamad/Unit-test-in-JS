@@ -11,18 +11,18 @@ test('Correct_string_length', () => {
 
 test('String-at-least-1-character-long', () => {
     //Arrange
-    const string = "hi";
+    const string = "";
     //Act
     const value = stringLength(string);
     //Assert
-    expect(value).toBeGreaterThan(1);
+    expect(value).toBeFalsy();
   });
 
 test('String-less-then-10-characters-long', () => {
    //Arrange
-   const string = "hi";
+   const string = "hihihhihih";
    //Act
    const value = stringLength(string);
    //Assert
-   expect(value).toBeLessThan(10);
+   expect(value).toBeFalsy();
  });
