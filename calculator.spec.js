@@ -61,4 +61,34 @@ test('Multipling 15 * 3', () => {
     //Assign
     expect(multiplication).toBe(45);
 });
+
+//Arrange
+const e = 20;
+const f = 10;
+test('Adding 20 + 10', () => {
+    const addition = Calculator.add(e, f)
+    //Assign
+    expect(addition).toBe(30);
+});
+
+test('Substracting 20 - 10', () => {
+    //Act
+    const subtraction = Calculator.subtract(e, f)
+    //Assign
+    expect(subtraction).toBe(10);
+});
+
+test('Dividing 20 / 10', () => {
+    //Act
+    const division = Calculator.divide(e, f)
+    //Assign
+    expect(division).toBe(2);
+    });
+
+test('Multipling 20 * 10', () => {
+    //Act
+    const multiplication = Calculator.multiply(e, f)
+    //Assign
+    expect(multiplication).toBe(200);
+});
 });
