@@ -1,6 +1,6 @@
 const capitalize = require('./capitalize')
 
-test('Capitalize-first-letter', () => {
+test('Capitalize-hello', () => {
   //Arrange
   const string = "hello";
   //Act
