@@ -1,6 +1,6 @@
 const reverseString = require('./reverseString')
 
-test('String-reverse', () => {
+test('Reverse-Hello World', () => {
     //Arrange
     const string = "Hello World";
     //Act
